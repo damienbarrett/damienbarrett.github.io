@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.center {
+    position: absolute;
+    background: #ccc;
+
+    left: 50%;
+    width: 33.867cm;
+    margin-left: -75px; 
+
+    top: 50%;
+    height: 19.05cm;
+    margin-top: -100px;
+}
