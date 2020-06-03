@@ -12,7 +12,9 @@
         <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
         <script>
             ReactDOM.render(
-                React.createElement('h1', null, 'Hello world!'),
+                <h1 id="my-heading">
+                    <span>Hello <em>JSX</em></span> world!
+                </h1>,
                 document.getElementById('app')
             );
         </script>
