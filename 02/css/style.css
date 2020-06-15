@@ -1,17 +1,23 @@
+@font-face {
+    font-family: "KPMG Light";
+    src: url("KPMG-Light.woff2") format("woff2")
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-family: 'KPMG Light', sans-serif;
+    font-size: 20px;
+
 }
 
 .center {
     position: absolute;
-    background: #ccc;
+    background: rgb(72, 59, 227);
 
-    left: 50%;
+    left: 5%;
     width: 33.867cm;
-    margin-left: -75px; 
+    #margin-left: -75px; 
 
-    top: 50%;
+    top: 5%;
     height: 19.05cm;
-    margin-top: -100px;
+    #margin-top: -100px;
 }
